@@ -13,4 +13,17 @@ interface IStorage {
 	 * @return void
 	 */
 	public function save(Translator $translator);
+
+    /**
+     * @param string $key $plural
+     * @param integer $key $plural
+     */
+    public function delete($key, $plural);
+
+    /**
+     * @param string $key
+     * @param string $text
+     * @param integer $plural
+     */
+    public function saveOne($key, $text, $plural);
 }
