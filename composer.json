@@ -1,5 +1,5 @@
 {
-  "name": "zemistr/l10n",
+  "name": "Kocicak/l10n",
   "description": "Localization, plurals and simple translator",
   "keywords": [
     "l10n",
@@ -14,6 +14,9 @@
     {
       "name": "Martin Zeman (Zemistr)",
       "homepage": "http://zemistr.eu"
+    },
+    {
+      "name": "Milan Kocourek"
     }
   ],
   "require": {
